@@ -135,3 +135,74 @@ footer{
     margin: 1% 0% 10% 1%;
     width: 30px;
 }*/
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* Style for the main content within the footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style for the text section in the footer */
+.footerText {
+    flex: 1;
+}
+
+.footerText h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footerText p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Style for the Subscribe section in the footer */
+.subSection {
+    flex: 1;
+}
+
+.subSection h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subSection input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.subBtn {
+    background-color: #da373d;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.subBtn:hover {
+    background-color: #bf3036;
+}
+
+/* Style for the social media logos */
+.logo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 30px;
+    margin: 0 10px;
+}
