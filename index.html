@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assingment/Logo/favicon.png" type="image/x-icon">
+    <title>Portfolio</title>
+    <!-- css link with styleSheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind cdn link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- bootstrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!--This is menubar/navbar part -->
+        <nav class="flex justify-content-between py-[2%] px-[5%] text-[aliceblue]">
+            <h1>Md Raihan Chowdhury</h1>
+            <ul class="flex">
+                <li>Navi</li>
+                <li>Gaition</li>
+                <li class="dropMenu">Bar
+                    <ul class="drop d-none position-absolutebg-[#005FAC]">
+                        <li>link1</li>
+                        <li>link2</li>
+                        <li>link 3</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--This is header text and background image part-->
+        <div class="header">
+            <div class="headerText text-[#c4dff7] pt-[20%] pe-[5%] pb-[15%] ms-[60%]
+                    align-items-end">
+                <h1>All Thinks Are Possible If You Believe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi commodi illum porro! Sapiente, aliquid
+                    harum sint qui eos facere ducimus?</p>
+                <button class="headerButton text-[#fff] me-[30%] p-3 mt-3 rounded-1 border-0">Contact Us</button>
+            </div>
+        </div>
+    </header>
+    <!--This is body image and text part-->
+    <main>
+        <div class="seperate flex justify-content-between align-items-center  w-[70%] mx-auto ">
+            <div class="mainSection">
+                <img src="person.png" alt="">
+            </div>
+            <div class="textSection ms-[5%] w-[70%]">
+                <h1 class="text-2xl">
+                    My failures of
+                    previous year
+                </h1>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not
+                    simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over
+                    2000 years old. Richard McClintock.
+                </p>
+                <p>
+                    Contrary to popular belief, is not simply
+                </p>
+                <p>
+                    Contrary to popular belief, is not simply
+                </p>
+                <p>
+                    Contrary to popular belief, is not simply
+                </p>
+                <p>
+                    Contrary to popular belief, is not simply
+                </p>
+                <p>
+                    Contrary to popular belief, is not simply
+                </p>
+            </div>
+        </div>
+        <!--This is section description part-->
+        <h1 class="planing">My Plans</h1>
+        <section class="section">
+
+            <div>
+                <img src="web.png" alt="">
+                <h3>Web Development</h3>
+                <p>I want to start</p>
+            </div>
+            <div>
+                <img src="js.png" alt="">
+                <h3>JavaScript</h3>
+                <p>I want to learn JavaScript</p>
+            </div>
+            <div>
+                <img src="smoke.png" alt="">
+                <h3>Smoking Habit</h3>
+                <p>I haven't that Habit</p>
+            </div>
+            <div>
+                <img src="ecom.png" alt="">
+                <h3>eCommerce</h3>
+                <p>I want to develop</p>
+            </div>
+        </section>
+        <!--Background image and linear gradient part-->
+        <section class="gradientBox">
+            <div class="text">
+                <h2>Awlays keep a positive mindset</h2>
+                <button>Call Now</button>
+            </div>
+        </section>
+    </main>
+    <!--It's a footer part-->
+    <footer>
+        <div class="footer">
+            <div class="footerText">
+                <h1>Future</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, incidunt.</p>
+                <p>Email: info@gmail.com</p>
+                <p>Phone: 0170000000</p>
+            </div>
+            <div class="subSection">
+                <h4>Subscribe</h4>
+                <input type="email" name="email" id="email" placeholder="Email"><br><br>
+                <button class="subBtn">Subscribe</button>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="fb.png" alt="">
+            <img src="twitter.png" alt="">
+            <img src="youtube.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
