@@ -60,3 +60,59 @@ header{
     
 }
 
+
+
+
+/* saikat has been developed  */
+/* style.css */
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerText,
+.subSection {
+    flex: 1; /* Equal width for both sections in the footer */
+    margin-bottom: 20px;
+}
+
+.subSection input {
+    width: 100%; /* Make the input field take full width */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.subBtn {
+    background-color: #da373d; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subBtn:hover {
+    background-color: #b52a2f; /* Change background color on hover */
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 30px; /* Adjust the width of the social media icons */
+    margin: 0 10px; /* Add some spacing between icons */
+}
